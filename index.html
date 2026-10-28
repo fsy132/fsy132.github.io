@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>个人作品与学习档案</title>
+  <meta name="description" content="硬件静音动画学习：从常见误区开始，配合步骤、公式代入与经过核查的结论。">
+  <meta property="og:title" content="个人作品与学习档案">
+  <meta property="og:description" content="从观察到理解，从实践到表达。作品、学习过程与可回看的资料。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fsy132.github.io/">
+  <link rel="canonical" href="https://fsy132.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23111'/%3E%3Cpath d='M11 11h18v18H11zM17 11v18' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="个人作品与学习档案，回到顶部">
+        <svg class="brand-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 3.5h17v17h-17zM9 3.5v17"/></svg>
+        <span>个人作品与学习档案</span>
+      </a>
+      <nav class="site-nav" aria-label="主要导航">
+        <a href="#work">作品</a>
+        <a href="#learning">学习</a>
+        <a href="#about">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-heading">
+      <div class="hero-topline"><p class="eyebrow">WORK &amp; LEARNING ARCHIVE</p><span class="hero-date">持续整理 · 2026</span></div>
+      <h1 id="hero-heading"><span>把实践与理解，</span><span>留成自己的<span class="highlight-word">档案</span>。</span></h1>
+      <div class="hero-footer">
+        <p class="hero-intro">记录做过的事，也记录怎样想明白。<br>把零散的知识拆开、核对，再用看得见的过程重新表达。</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">浏览作品 <span aria-hidden="true">↓</span></a><a class="text-link" href="learning/index.html">进入学习 <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-bottomline"><span>从一个具体问题开始</span><span class="mono">OBSERVE / UNDERSTAND / MAKE</span></div>
+    </section>
+
+    <section class="work-section shell" id="work" aria-labelledby="work-heading">
+      <div class="section-heading">
+        <p class="section-label"><span class="mono">01</span> 精选作品</p>
+        <h2 id="work-heading">把一个问题，<br>讲清楚。</h2>
+        <p class="section-description">让参数有条件，<br>让原理有画面，<br>让理解可以反复发生。</p>
+      </div>
+      <div id="projects" class="project-list" aria-busy="true"><p class="loading-note" role="status">正在加载作品。</p></div>
+      <noscript><p class="fallback-note">请直接打开 <a href="learning/index.html">MOSFET 静音循环学习</a>，或下载 <a href="downloads/offline-learning.html" download>离线学习页</a>。</p></noscript>
+    </section>
+
+    <section class="learning-section" id="learning" aria-labelledby="learning-heading">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="section-label"><span class="mono">02</span> 学习索引</p>
+          <h2 id="learning-heading">按问题，<br>找到下一步。</h2>
+          <p class="section-description">当前主题：MOSFET。<br>每个入口都通向动画、步骤与结论。</p>
+        </div>
+        <div id="learning-topics" class="topic-list" aria-label="MOSFET 学习分类"></div>
+        <div class="section-tail"><a class="text-link" href="learning/index.html">查看完整学习页 <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="about-section shell" id="about" aria-labelledby="about-heading">
+      <div class="about-copy">
+        <p class="section-label"><span class="mono">03</span> 关于这份档案</p>
+        <h2 id="about-heading">留下结果，<br>也留下理解的过程。</h2>
+        <p>这里收纳个人作品与学习记录。目前从 MOSFET 基础出发，将资料中的概念拆成能够观察、核对和回看的内容。</p>
+        <p>项目保留依据、适用条件和表达过程。示意图帮助建立理解，具体设计仍需回到真实工况与测试。</p>
+      </div>
+      <aside class="archive-note" aria-label="当前档案">
+        <span class="mono">CURRENT FILE</span>
+        <strong>MOSFET</strong>
+        <p>静音循环学习<br>参数、波形与工程边界</p>
+        <span class="archive-note-mark" aria-hidden="true">↗</span>
+      </aside>
+      <ol class="process-list" aria-label="内容整理方法">
+        <li><span class="mono">01</span><h3>观察</h3><p>从画面与现象开始。</p></li>
+        <li><span class="mono">02</span><h3>拆解</h3><p>把问题分成可理解的步骤。</p></li>
+        <li><span class="mono">03</span><h3>核查</h3><p>给结论补上来源与条件。</p></li>
+        <li><span class="mono">04</span><h3>表达</h3><p>用动画与文字重新讲清楚。</p></li>
+      </ol>
+    </section>
+
+    <section class="downloads-section shell" id="downloads" aria-labelledby="downloads-heading">
+      <div class="download-heading"><p class="section-label"><span class="mono">04</span> 下载与回看</p><h2 id="downloads-heading">保存一份，<br>随时再看。</h2><p>保存当前版离线动画，或回看早期基础示意视频。</p></div>
+      <div id="download-list" class="download-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <p>个人作品与学习档案</p>
+    <p>最后更新 <time id="updated-date" datetime="2026-10-28">2026-10-28</time></p>
+    <a href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>

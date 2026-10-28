@@ -1,0 +1,97 @@
+[
+  {
+    "id": "mosfet-learning",
+    "featured": true,
+    "category": "LEARNING",
+    "actionLabel": "打开学习项目",
+    "year": "2026",
+    "updated": "2026-10-28",
+    "title": "硬件知识：从容易错的地方开始",
+    "subtitle": "看现象，找误区，跟着公式算明白。",
+    "description": "15个学习模块，195个问题页。左边看静音循环，右边读步骤与结论；需要计算时，再展开符号、代入和条件。",
+    "href": "learning/index.html",
+    "cover": "assets/mosfet-cover.svg",
+    "coverAlt": "原创 MOSFET 技术示意封面：栅极驱动回路与电压转换曲线；图形用于理解知识点，不对应具体器件。",
+    "tags": [
+      "电路原理",
+      "原创动画",
+      "静音学习"
+    ],
+    "topics": [
+      {
+        "title": "MOS选型：把每个数字放回条件里",
+        "description": "先从会烧管、会发热、会算错的地方学起。每次只解决一个问题，公式附符号、单位和数字代入。",
+        "href": "learning/index.html#mos01-a"
+      },
+      {
+        "title": "栅电阻：怎样把速度与应力一起算？",
+        "description": "从电荷和电流出发，逐步估算速度、损耗、过冲与误导通，再纠正原图关断支路的等效阻值。所有候选阻值都需要实际验证。",
+        "href": "learning/index.html#gate-tradeoff"
+      },
+      {
+        "title": "米勒寄生导通：没给开通信号为何仍被抬起",
+        "description": "两条米勒原片的核心内容重复，合为这一套。沿真实顺序解释尖峰、耦合算例及五种措施，并补足器件和动态模型条件。",
+        "href": "learning/index.html#MIL-01"
+      },
+      {
+        "title": "Kelvin源极：栅压究竟相对谁？",
+        "description": "把功率电流和栅极返回分开，解释共源电感、钳位参考和布局；负压示意只保留能由证据支持的结论。",
+        "href": "learning/index.html#kelvin-reference"
+      },
+      {
+        "title": "死区：怎样让上下管接力？",
+        "description": "从共同关断的空隙开始，理解直通、续流、损耗和输出误差，再学会用实际时序决定死区。",
+        "href": "learning/index.html#deadtime-why"
+      },
+      {
+        "title": "双脉冲：怎样让开关测试可信",
+        "description": "实际原片围绕48V、100A测试，解释两脉冲、回路寄生和测量误差。以下保留原例，并纠正总电流峰、母线容量及探测条件的简化。",
+        "href": "learning/index.html#DPT-01"
+      },
+      {
+        "title": "SOA：小电流为何也可能烧管",
+        "description": "实际原片用48V、2200µF缓启动解释额定电流与线性工作差别。以下把平均温度粗估、真实功率轨迹和局部热点边界分开。",
+        "href": "learning/index.html#SOA-01"
+      },
+      {
+        "title": "DESAT：怎样在短路时及时退出？",
+        "description": "学会用导通时的VCE识别严重故障，理解检测门槛、充电延时、软关断和完整保护预算。",
+        "href": "learning/index.html#desat-urgency"
+      },
+      {
+        "title": "雪崩：过冲与回馈的能量去向",
+        "description": "把纳秒过冲、每次吸收能量、重复平均热和较慢的母线泵升分开看，再选择各自的处理办法。",
+        "href": "learning/index.html#av01-a"
+      },
+      {
+        "title": "RC吸收：尖峰为什么会变小",
+        "description": "从两段真实波形演示出发，分清连接、原理与代价。",
+        "href": "learning/index.html#RC-01"
+      },
+      {
+        "title": "年度回忆里的补充知识",
+        "description": "重复的米勒内容归入米勒模块；这里保留驱动、LDO和测量中的新问题。",
+        "href": "learning/index.html#AR-01"
+      },
+      {
+        "title": "电驱图纸审查：怎样从回路找风险？",
+        "description": "以一份电机驱动截图为练习，先看电流如何流动，再核对耐压、保护、热路与驱动逻辑；保留原片中有价值的检查，也纠正两处泛化结论。",
+        "href": "learning/index.html#audit-positive"
+      }
+    ],
+    "downloads": [
+      {
+        "title": "当前版离线动画学习页",
+        "description": "HTML / 无音频 · 含问题、公式拆解与原创循环",
+        "href": "downloads/offline-learning.html",
+        "filename": "hardware-learning-offline.html"
+      },
+      {
+        "title": "早期22段独立基础示意视频",
+        "description": "旧版 MP4 合集 · 不是本次全部作者视频的重制",
+        "href": "downloads/silent-loops.zip",
+        "filename": "mosfet-foundations-legacy.zip"
+      }
+    ]
+  }
+]

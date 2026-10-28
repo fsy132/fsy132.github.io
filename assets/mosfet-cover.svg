@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">MOSFET 静音循环学习</title><desc id="desc">原创技术示意封面，左侧为栅极驱动回路，右侧为米勒平台关联波形。仅作知识点示意，不对应具体器件。</desc>
+  <style>text{font-family:'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif}.mono{font-family:Consolas,monospace;letter-spacing:3px}.line{fill:none;stroke:#283c3a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}</style>
+  <rect width="1600" height="920" fill="#f1f3ef"/>
+  <path d="M80 100H1520" stroke="#cfd6cd" stroke-width="2"/>
+  <circle cx="91" cy="69" r="8" fill="#91aaa0"/><circle cx="117" cy="69" r="8" fill="#d7ba9a"/>
+  <text x="148" y="77" class="mono" font-size="21" fill="#56645e">MOTION / NOTES</text>
+  <text x="1518" y="77" class="mono" text-anchor="end" font-size="20" fill="#56645e">001 — 2026</text>
+  <text x="75" y="291" font-size="158" font-weight="560" letter-spacing="-9" fill="#172621">MOSFET</text>
+  <text x="84" y="359" font-size="36" fill="#344b42">让参数，变成看得见的过程。</text>
+  <path d="M1140 194H1518M1140 279H1518" stroke="#becbc1" stroke-width="2"/>
+  <text x="1140" y="243" font-size="25" fill="#344b42">11 个知识点 / 22 段动画</text>
+  <text x="1140" y="324" class="mono" font-size="19" fill="#6e7c72">OBSERVE. REPLAY. UNDERSTAND.</text>
+  <rect x="80" y="428" width="645" height="360" fill="#ffffff"/>
+  <rect x="755" y="428" width="765" height="360" fill="#ffffff"/>
+  <text x="112" y="473" class="mono" font-size="18" fill="#738177">01 / GATE CHARGE</text>
+  <text x="787" y="473" class="mono" font-size="18" fill="#738177">02 / MILLER PLATEAU</text>
+  <rect x="126" y="544" width="156" height="104" fill="#e7eff0" stroke="#a5b5ad" stroke-width="2"/>
+  <text x="204" y="606" text-anchor="middle" font-size="26" fill="#344b42">驱动器</text>
+  <path d="M282 596H550V629M508 629H591M508 651H591M550 651V716H204V648" class="line"/>
+  <path d="M521 731H579M531 742H569M542 753H558" class="line" stroke-width="3"/>
+  <circle cx="382" cy="596" r="8" fill="#769b88"/><circle cx="468" cy="596" r="8" fill="#769b88"/>
+  <text x="550" y="558" text-anchor="middle" font-size="23" fill="#6e7c72">栅极储荷</text>
+  <text x="321" y="687" font-size="22" fill="#6e7c72">每次切换，都要搬电荷</text>
+  <rect x="1095" y="502" width="188" height="230" fill="#f1ede4"/>
+  <path d="M850 520V605H1450M850 653V738H1450" fill="none" stroke="#ced7d0" stroke-width="2"/>
+  <path d="M850 605L1095 562H1283L1450 519" fill="none" stroke="#6d9280" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M850 660H1095L1283 737H1450" fill="none" stroke="#c5a17b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="824" y="553" text-anchor="end" font-size="20" fill="#6d9280">VGS</text><text x="824" y="686" text-anchor="end" font-size="20" fill="#b28b63">VDS</text>
+  <path d="M1190 512V747" fill="none" stroke="#9da9a0" stroke-width="2" stroke-dasharray="5 8"/>
+  <circle cx="1190" cy="562" r="7" fill="#6d9280"/><circle cx="1190" cy="699" r="7" fill="#c5a17b"/>
+  <text x="80" y="856" font-size="24" fill="#344b42">静音循环 · 每段 8 秒 · 同一画面反复理解</text>
+  <text x="1518" y="856" text-anchor="end" font-size="19" fill="#6e7c72">知识点示意，不对应具体器件</text>
+</svg>
