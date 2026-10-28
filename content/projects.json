@@ -5,10 +5,10 @@
     "category": "LEARNING",
     "actionLabel": "打开学习项目",
     "year": "2026",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "title": "硬件知识：从容易错的地方开始",
     "subtitle": "看现象，找误区，跟着公式算明白。",
-    "description": "15个学习模块，195个问题页。左边看静音循环，右边读步骤与结论；需要计算时，再展开符号、代入和条件。",
+    "description": "13个学习模块，188个问题页。左边看静音循环，右边读步骤与结论；需要计算时，再展开符号、代入和条件。",
     "href": "learning/index.html",
     "cover": "assets/mosfet-cover.svg",
     "coverAlt": "原创 MOSFET 技术示意封面：栅极驱动回路与电压转换曲线；图形用于理解知识点，不对应具体器件。",
@@ -67,11 +67,6 @@
         "title": "RC吸收：尖峰为什么会变小",
         "description": "从两段真实波形演示出发，分清连接、原理与代价。",
         "href": "learning/index.html#RC-01"
-      },
-      {
-        "title": "年度回忆里的补充知识",
-        "description": "重复的米勒内容归入米勒模块；这里保留驱动、LDO和测量中的新问题。",
-        "href": "learning/index.html#AR-01"
       },
       {
         "title": "电驱图纸审查：怎样从回路找风险？",
